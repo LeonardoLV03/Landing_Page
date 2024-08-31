@@ -86,3 +86,74 @@ background-color: black ;
 .texto-blanco {
 color: white; 
 }
+
+#TITULO {
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black; 
+  padding: 50px 0; 
+  }
+  #FINAL {
+    background-color: black; /* Establece el mismo color de fondo que el encabezado */
+    color: #ff9900; /* Establece el color de texto para el pie de página */
+  }
+  .container {
+    max-width: 960px;
+  }
+  
+  .icon-link:hover {
+  color: #ff9900; 
+  }
+  
+  
+  .juego-image {
+  position: relative;
+  }
+  
+  .juego-image::after {
+  content: "Black Myth: Wukong es un RPG de acción inspirado en la mitología china. La trama se basa en Viaje al Oeste, una de las cuatro grandes novelas clásicas de la literatura china."; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2d2d2d; 
+  color: white;
+  padding: 15px;
+  opacity: 0; 
+  transition: opacity 0.3s ease; /
+  }
+  
+  .juego-image:hover::after {
+  opacity: 1; 
+  }
+  
+  .juego-image2 {
+  position: relative;
+  }
+  
+  .juego-image2::after {
+  content: "Desarrollado por Treyarch y Raven, Black Ops 6 es un thriller de acción y espionaje ambientado a principios de la década de los 90, un período de transición e inestabilidad política, marcado por el final de la Guerra Fría y el ascenso de los Estados Unidos como única superpotencia."; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2d2d2d; 
+  color: white;
+  padding: 15px;
+  opacity: 0; 
+  transition: opacity 0.3s ease; /
+  }
+  
+  .juego-image2:hover::after {
+  opacity: 1; 
+  }
+  .flex-md-equal {
+    display: flex;
+    }
+    
+    .flex-md-equal > * {
+    flex: 1;
+    padding: 15px; 
+    }
