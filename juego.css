@@ -1,83 +1,84 @@
 .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
+}
 
-  .b-example-divider {
-    width: 100%;
-    height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-  }
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
 
-  .b-example-vr {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 100vh;
-  }
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
 
-  .bi {
-    vertical-align: -.125em;
-    fill: currentColor;
-  }
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
 
-  .nav-scroller {
-    position: relative;
-    z-index: 2;
-    height: 2.75rem;
-    overflow-y: hidden;
-  }
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
 
-  .nav-scroller .nav {
-    display: flex;
-    flex-wrap: nowrap;
-    padding-bottom: 1rem;
-    margin-top: -1px;
-    overflow-x: auto;
-    text-align: center;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-  }
-  .navbar-brand img {
-    max-width: 50%; /* Ajusta el ancho del logo */
-    height: auto; /* Mantiene la proporción original */
-    margin-right: 15px; /* Espaciado opcional a la derecha del logo */
-  }
-  .btn-bd-primary {
-    --bd-violet-bg: #712cf9;
-    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.navbar-brand img {
+  max-width: 50%; /* Ajusta el ancho del logo */
+  height: auto; /* Mantiene la proporción original */
+  margin-right: 15px; /* Espaciado opcional a la derecha del logo */
+}
 
-    --bs-btn-font-weight: 600;
-    --bs-btn-color: var(--bs-white);
-    --bs-btn-bg: var(--bd-violet-bg);
-    --bs-btn-border-color: var(--bd-violet-bg);
-    --bs-btn-hover-color: var(--bs-white);
-    --bs-btn-hover-bg: #6528e0;
-    --bs-btn-hover-border-color: #6528e0;
-    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-    --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: #5a23c8;
-    --bs-btn-active-border-color: #5a23c8;
-  }
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 
-  .bd-mode-toggle {
-    z-index: 1500;
-  }
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
 
-  .bd-mode-toggle .dropdown-menu .active .bi {
-    display: block !important;
-  }
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
 
 .bg-fond {
 background-color: black ; 
@@ -89,71 +90,157 @@ color: white;
 
 #TITULO {
 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: black; 
-  padding: 50px 0; 
-  }
-  #FINAL {
-    background-color: black; /* Establece el mismo color de fondo que el encabezado */
-    color: #ff9900; /* Establece el color de texto para el pie de página */
-  }
-  .container {
-    max-width: 960px;
-  }
-  
-  .icon-link:hover {
-  color: #ff9900; 
-  }
-  
-  
-  .juego-image {
-  position: relative;
-  }
-  
-  .juego-image::after {
-  content: "Black Myth: Wukong es un RPG de acción inspirado en la mitología china. La trama se basa en Viaje al Oeste, una de las cuatro grandes novelas clásicas de la literatura china."; 
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #2d2d2d; 
-  color: white;
-  padding: 15px;
-  opacity: 0; 
-  transition: opacity 0.3s ease; /
-  }
-  
-  .juego-image:hover::after {
-  opacity: 1; 
-  }
-  
-  .juego-image2 {
-  position: relative;
-  }
-  
-  .juego-image2::after {
-  content: "Desarrollado por Treyarch y Raven, Black Ops 6 es un thriller de acción y espionaje ambientado a principios de la década de los 90, un período de transición e inestabilidad política, marcado por el final de la Guerra Fría y el ascenso de los Estados Unidos como única superpotencia."; 
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #2d2d2d; 
-  color: white;
-  padding: 15px;
-  opacity: 0; 
-  transition: opacity 0.3s ease; /
-  }
-  
-  .juego-image2:hover::after {
-  opacity: 1; 
-  }
-  .flex-md-equal {
-    display: flex;
-    }
-    
-    .flex-md-equal > * {
-    flex: 1;
-    padding: 15px; 
-    }
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+color: black; 
+padding: 50px 0; 
+}
+#FINAL {
+background-color: black; /* Establece el mismo color de fondo que el encabezado */
+color: #ff9900; /* Establece el color de texto para el pie de página */
+}
+.container {
+max-width: 960px;
+}
+
+.icon-link:hover {
+color: #ff9900; 
+}
+
+
+.juego-image {
+position: relative;
+}
+
+.juego-image::after {
+content: "Black Myth: Wukong es un RPG de acción inspirado en la mitología china. La trama se basa en Viaje al Oeste, una de las cuatro grandes novelas clásicas de la literatura china."; 
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: #2d2d2d; 
+color: white;
+padding: 15px;
+opacity: 0; 
+transition: opacity 0.3s ease; /
+}
+
+.juego-image:hover::after {
+opacity: 1; 
+}
+
+.juego-image2 {
+position: relative;
+}
+
+.juego-image2::after {
+content: "Desarrollado por Treyarch y Raven, Black Ops 6 es un thriller de acción y espionaje ambientado a principios de la década de los 90, un período de transición e inestabilidad política, marcado por el final de la Guerra Fría y el ascenso de los Estados Unidos como única superpotencia."; 
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: #2d2d2d; 
+color: white;
+padding: 15px;
+opacity: 0; 
+transition: opacity 0.3s ease; /
+}
+
+.juego-image2:hover::after {
+opacity: 1; 
+}
+
+.juego-image3 {
+position: relative;
+}
+
+.juego-image3::after {
+content: "Cyberpunk 2077 es un juego de rol de acción y aventura de mundo abierto ambientado en Night City, una megalópolis obsesionada con el poder, el glamour y la modificación del cuerpo."; 
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: #2d2d2d; 
+color: white;
+padding: 15px;
+opacity: 0; 
+transition: opacity 0.3s ease; /
+}
+
+.juego-image3:hover::after {
+opacity: 1; 
+}
+
+.juego-image4 {
+position: relative;
+}
+
+.juego-image4::after {
+content: "Elden Ring tiene lugar en las Tierras Intermedias, un continente ficticio gobernado por diferentes semidioses. Anteriormente estaba gobernado por la Reina Marika la Eterna, la cual actuaba como guardiana del Círculo de Elden, una poderosa fuerza que se manifiesta como el concepto físico del orden."; 
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.7); 
+color: white;
+padding: 15px;
+opacity: 0; 
+transition: opacity 0.3s ease; /
+}
+
+.juego-image4:hover::after {
+opacity: 1; 
+}
+
+.juego-image5 {
+position: relative;
+}
+
+.juego-image5::after {
+content: "Hogwarts Legacy es un juego de rol inmersivo en mundo abierto que se inspira de los libros de la saga Harry Potter. Disfruta del Hogwarts del siglo XIX. Tu personaje es un alumno o alumna del famoso colegio que tiene la clave de un antiguo secreto que amenaza con destruir el mundo mágico."; 
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.7); 
+color: white;
+padding: 15px;
+opacity: 0; 
+transition: opacity 0.3s ease; /
+}
+
+.juego-image5:hover::after {
+opacity: 1; 
+}
+
+
+.juego-image6 {
+position: relative;
+}
+
+.juego-image6::after {
+content: "Una historia ambientada 100 años después de Baldur 2 La historia tendrá lugar 100 años después de los sucesos de Baldur's Gate 2, ahondando en un mundo en completa fragmentación como los Reinos Olvidados, plagado de criaturas peligrosas, grandes males latentes y seres muy retorcidos como los Azotamentes."; 
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.7); 
+color: white;
+padding: 15px;
+opacity: 0; 
+transition: opacity 0.3s ease; /
+}
+
+.juego-image6:hover::after {
+opacity: 1; 
+}
+
+.flex-md-equal {
+display: flex;
+}
+
+.flex-md-equal > * {
+flex: 1;
+padding: 15px; 
+}
